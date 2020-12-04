@@ -15,7 +15,7 @@ function buyRamenButton(){
 };
     
 function getRamen(){
-    var ramenCost = 0.55;
+    var ramenCost = 0.50;
     if(money >= ramenCost){
       ramen = ramen + 1;
     	money = money - ramenCost;
