@@ -4,13 +4,15 @@
 <script type="text/javascript" src="./scripts/alerts.js"></script>            
  <header>
         (v0.0.3.10)
-        UPDATES: Added Sams button (I think it works :p) | Fixed the free Sams Ramen (sorry Wiki :P)
+        UPDATES: Added Sams button (I think it works :p) | Fixed the free Sams Ramen (sorry Wiki :P) | Cleaned up the JavaScript
         <br />UPCOMING: Add a game log. | Save Button.
-  <a href:"https://github.com/Ramengame/Ramengame.github.io">Source</a>
+        <br />
+        <a href="https://github.com/Ramengame/Ramengame.github.io">Source</a>
         <br />Made by Illithid_Ate_Sylgar :)
         </header>
 </head>
 <body>
+ <h1 id="mainTitle" class="titles">Ramengame</h1>
 Your a hungry college student.  You want some Ramen Noodles.<br />
 
 <div class="moneyThings">    
@@ -19,6 +21,7 @@ Your a hungry college student.  You want some Ramen Noodles.<br />
   You have $<span id="money">0</span>.
 </div>
 
+ <h2 id="storeTitle" class="titles">Store</h2>
 <div class="ramenThings">
   <button id="getRamen" onclick="getRamen()">Buy Ramen</button>
    Ramen Cost: $<span id="ramenCost">0.50</span>
@@ -28,9 +31,12 @@ Your a hungry college student.  You want some Ramen Noodles.<br />
   <br />
   You have <span id="ramen">0</span> Ramen <span id="ramenSmile"></span>
   <br />
-  <button onclick="eatRamen()">Eat Some Ramen</button>
-  Brain Power: <span id="brainPower">0</span>
-  <br />
+</div>
+ 
+<div id="brainThings">
+<button onclick="eatRamen()">Eat Some Ramen</button>
+Brain Power: <span id="brainPower">0</span>
+<br />
 </div>
 
 <div class="stats" hidden>
