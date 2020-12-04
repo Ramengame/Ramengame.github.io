@@ -35,6 +35,10 @@ function samsRamen(){
 	ramen = ramen + 48;
 	document.getElementById('ramen').innerHTML = ramen;
 	document.getElementById('money').innerHTML = money;
+    } else {
+	alert(noMoney);
+    };
+};
 
 function ramenStats(){
     totalRamen = totalRamen + 1;
