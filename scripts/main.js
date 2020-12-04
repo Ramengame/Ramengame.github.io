@@ -30,6 +30,9 @@ function ramenStats(){
 function eatRamen(){
     if(ramen >= 1){
     brainPower = brainPower + 1;
+    ramen = ramen - 1;
+    document.getElementById('brainPower').innerHTML = brainPower;
+    document.getElementById('ramen').innerHTML = ramen;
     } else{
     alert("You can't eat any Ramen because you don't HAVE any Ramen. This is unacceptable >:(");
     }
