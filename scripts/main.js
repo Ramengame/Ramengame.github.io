@@ -10,7 +10,7 @@ var ramensFromSam = 48;
     
 function getMoney(amount){
       currentMoney += amount;
-      document.getElementById("money").innerHTML = currentMoney;
+      updateCurrentMoneyHTML();
 };
 
 function buyRamenButton(){
@@ -33,11 +33,19 @@ function getRamen(){
     }
 };
 
+function updateCurrentRamenHTML(){
+    document.getElementById('ramen').innerHTML = currentRamen.toFixed(2);
+}
+
+function updateCurrentMoneyHTML(){
+    document.getElementById('money').innerHTML = currentMoney.toFixed(2);
+}
+
 function paysForRamen(ramenCost, totalRamenToReceive){
     currentRamen += totalRamenToReceive;
     currentMoney -= ramenCost;
-    document.getElementById('ramen').innerHTML = currentRamen;
-    document.getElementById('money').innerHTML = currentMoney;
+    updateCurrentMoneyHTML();
+    updateCurrentRamenHTML();
 }
 
 function ramenStats(){
@@ -50,7 +58,7 @@ function eatRamen(){
         brainPower = brainPower + 1;
         currentRamen -= 1;
         document.getElementById('brainPower').innerHTML = brainPower;
-        document.getElementById('ramen').innerHTML = currentRamen;
+        updateCurrentRamenHTML();
     } else{
         alert("You can't eat any Ramen because you don't HAVE any Ramen. This is unacceptable >:(");
     }
