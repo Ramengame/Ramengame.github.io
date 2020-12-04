@@ -3,8 +3,8 @@
 <script type="text/javascript" src="./scripts/main.js"></script>            
 <script type="text/javascript" src="./scripts/alerts.js"></script>            
         <header>
-        (v0.0.2.3)
-        UPDATES: Made updates banner. | I mean, I made the game.  Thats pretty much it. | You can buy and eat Ramen and rumage through the couch cushions for money. Thats a lot of quarters. | Lots and lots and lots of bug fixes. :(
+        (v0.0.2)
+        UPDATES: Made updates banner. | I mean, I made the game.  Thats pretty much it. | You can buy and eat Ramen and rumage through the couch cushions for money. Thats a lot of quarters.
         <br />UPCOMING: Add a game log.
         <br />Made by Illithid_Ate_Sylgar :)
         </header>
@@ -19,7 +19,7 @@ Your a hungry college student.  You want some Ramen Noodles.<br />
 </div>
 
 <div class="ramenThings">
-  <button id="getRamen" onclick="buyRamenButton()">Buy Ramen</button>
+  <button id="getRamen" onclick="getRamen()">Buy Ramen</button>
   <br />
   You have <span id="ramen">0</span> Ramen <span id="ramenSmile"></span>
   <br />
@@ -30,9 +30,14 @@ Your a hungry college student.  You want some Ramen Noodles.<br />
   <br />
 </div>
 
-<div class="stats" hidden>
+<div class="stats">
 <span id="totalRamen">0</span>
 </div>
+
+<div id="buyRamenText"></div>
+
+</body>
+</html>
 
 <div id="buyRamenText"></div>
 
