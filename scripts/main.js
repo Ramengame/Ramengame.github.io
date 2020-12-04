@@ -43,3 +43,8 @@ function eatRamen(){
     }
 };
 
+window.setInterval(function(){
+    
+getmoney(brainPower);
+	
+}, 1000);
