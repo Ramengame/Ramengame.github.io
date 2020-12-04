@@ -16,7 +16,7 @@ function samsRamen(){
     var samsCost = 8.28;
     if(money >= samsCost){
 	ramen = ramen + 48;
-	money = money - samsCost;
+	money = money - 8.28;
 	document.getElementById('ramen').innerHTML = ramen;
 	document.getElementById('money').innerHTML = money;
     } else {
