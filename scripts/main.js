@@ -4,6 +4,8 @@ var money = 0;
 var totalMoney = 0;
 var brainPower = 0;
     
+var noMoney = "The store clerk looks at you incredously. You know you need money to get Ramen, Right?"
+
 function getMoney(number){
       money = money + number;
       document.getElementById("money").innerHTML = money;
@@ -26,6 +28,13 @@ function getRamen(){
     alert("The store clerk looks at you incredously. You know you need money to get Ramen, Right?");
     }
 };
+
+function samsRamen(){
+    var samsCost = 8.28;
+    if(money >= samsCost){
+	ramen = ramen + 48;
+	document.getElementById('ramen').innerHTML = ramen;
+	document.getElementById('money').innerHTML = money;
 
 function ramenStats(){
     totalRamen = totalRamen + 1;
