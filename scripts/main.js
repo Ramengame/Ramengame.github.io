@@ -38,6 +38,7 @@ function eatRamen(){
     ramen = ramen - 1;
     document.getElementById('brainPower').innerHTML = brainPower;
     document.getElementById('ramen').innerHTML = ramen;
+    brainWords();
     } else{
     alert("You can't eat any Ramen because you don't HAVE any Ramen. This is unacceptable >:(");
     }
