@@ -1,116 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2020-12-04T19:34:11.101Z" agent="5.0 (X11; CrOS x86_64 13421.99.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="MaFua6cHnc3YZHfK_D1O" version="13.10.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-04T19:58:14.735Z" agent="5.0 (X11; CrOS x86_64 13421.99.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="0oFHqSoiDtsaZBaO2jab" version="13.10.9" type="github">
   <diagram id="T35cyZ2znJoSK22iUFFZ" name="Page-1">
-    <mxGraphModel dx="802" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="553" dy="408" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_fxAKipDGVaVRiMI-ugZ-1" value="Get Ramen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="110" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_fxAKipDGVaVRiMI-ugZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_fxAKipDGVaVRiMI-ugZ-2" target="_fxAKipDGVaVRiMI-ugZ-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_fxAKipDGVaVRiMI-ugZ-2" value="Find Money" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="150" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_fxAKipDGVaVRiMI-ugZ-3" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_fxAKipDGVaVRiMI-ugZ-5" target="_fxAKipDGVaVRiMI-ugZ-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="490" y="230" as="sourcePoint" />
-            <mxPoint x="540" y="190" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_fxAKipDGVaVRiMI-ugZ-5" value="Money" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_fxAKipDGVaVRiMI-ugZ-6" value="Brain Power" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="480" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_fxAKipDGVaVRiMI-ugZ-7" value="Money Bonus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="330" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_fxAKipDGVaVRiMI-ugZ-8" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_fxAKipDGVaVRiMI-ugZ-1" target="_fxAKipDGVaVRiMI-ugZ-6">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="620" y="230" as="sourcePoint" />
-            <mxPoint x="650" y="280" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_fxAKipDGVaVRiMI-ugZ-9" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_fxAKipDGVaVRiMI-ugZ-6" target="_fxAKipDGVaVRiMI-ugZ-7">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="410" as="sourcePoint" />
-            <mxPoint x="460" y="360" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_fxAKipDGVaVRiMI-ugZ-10" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="_fxAKipDGVaVRiMI-ugZ-7" target="_fxAKipDGVaVRiMI-ugZ-5">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="330" as="sourcePoint" />
-            <mxPoint x="440" y="280" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_fxAKipDGVaVRiMI-ugZ-11" value="500 Ramen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="950" y="210" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="_fxAKipDGVaVRiMI-ugZ-12" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_fxAKipDGVaVRiMI-ugZ-1" target="_fxAKipDGVaVRiMI-ugZ-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="320" as="sourcePoint" />
             <mxPoint x="500" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_fxAKipDGVaVRiMI-ugZ-13" value="Sell Ramen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="370" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_fxAKipDGVaVRiMI-ugZ-14" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_fxAKipDGVaVRiMI-ugZ-11" target="_fxAKipDGVaVRiMI-ugZ-13">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="680" y="320" as="sourcePoint" />
-            <mxPoint x="730" y="270" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_fxAKipDGVaVRiMI-ugZ-15" value="Sell 200 Ramen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="970" y="430" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_fxAKipDGVaVRiMI-ugZ-16" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_fxAKipDGVaVRiMI-ugZ-13" target="_fxAKipDGVaVRiMI-ugZ-5">
+        <mxCell id="_fxAKipDGVaVRiMI-ugZ-16" value="" style="endArrow=classic;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_fxAKipDGVaVRiMI-ugZ-13" target="_fxAKipDGVaVRiMI-ugZ-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="600" y="310" as="sourcePoint" />
             <mxPoint x="650" y="260" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_fxAKipDGVaVRiMI-ugZ-17" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_fxAKipDGVaVRiMI-ugZ-13" target="_fxAKipDGVaVRiMI-ugZ-6">
+        <mxCell id="_fxAKipDGVaVRiMI-ugZ-17" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_fxAKipDGVaVRiMI-ugZ-13" target="_fxAKipDGVaVRiMI-ugZ-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="750" y="470" as="sourcePoint" />
             <mxPoint x="800" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_fxAKipDGVaVRiMI-ugZ-18" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_fxAKipDGVaVRiMI-ugZ-13" target="_fxAKipDGVaVRiMI-ugZ-15">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="930" y="300" as="sourcePoint" />
-            <mxPoint x="980" y="250" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_fxAKipDGVaVRiMI-ugZ-19" value="Sell Cooked Ramen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="810" y="540" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_fxAKipDGVaVRiMI-ugZ-20" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_fxAKipDGVaVRiMI-ugZ-15" target="_fxAKipDGVaVRiMI-ugZ-19">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1040" y="600" as="sourcePoint" />
-            <mxPoint x="1090" y="550" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_fxAKipDGVaVRiMI-ugZ-21" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_fxAKipDGVaVRiMI-ugZ-19" target="_fxAKipDGVaVRiMI-ugZ-5">
+        <mxCell id="_fxAKipDGVaVRiMI-ugZ-21" value="" style="endArrow=classic;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_fxAKipDGVaVRiMI-ugZ-19" target="_fxAKipDGVaVRiMI-ugZ-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="840" y="520" as="sourcePoint" />
-            <mxPoint x="890" y="470" as="targetPoint" />
+            <mxPoint x="680" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="470" />
+              <mxPoint x="670" y="290" />
+              <mxPoint x="600" y="290" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_fxAKipDGVaVRiMI-ugZ-22" value="Sell 100 Cooked Ramen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="650" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_fxAKipDGVaVRiMI-ugZ-23" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_fxAKipDGVaVRiMI-ugZ-19" target="_fxAKipDGVaVRiMI-ugZ-22">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="840" y="710" as="sourcePoint" />
-            <mxPoint x="890" y="660" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_fxAKipDGVaVRiMI-ugZ-24" value="Start Restraunt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="590" width="120" height="60" as="geometry" />
+        <mxCell id="_fxAKipDGVaVRiMI-ugZ-24" value="Start Restraunt" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="510" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_fxAKipDGVaVRiMI-ugZ-25" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_fxAKipDGVaVRiMI-ugZ-22" target="_fxAKipDGVaVRiMI-ugZ-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -122,7 +47,103 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="420" y="520" as="sourcePoint" />
             <mxPoint x="470" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="460" />
+            </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_fxAKipDGVaVRiMI-ugZ-27" value="" style="group;strokeWidth=2;strokeColor=#BF3B51;glass=0;fontColor=#FF6112;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="110" y="150" width="710" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="_fxAKipDGVaVRiMI-ugZ-1" value="Get Ramen" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="_fxAKipDGVaVRiMI-ugZ-27">
+          <mxGeometry x="590" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_fxAKipDGVaVRiMI-ugZ-2" value="Find Money" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="_fxAKipDGVaVRiMI-ugZ-27">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_fxAKipDGVaVRiMI-ugZ-3" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="_fxAKipDGVaVRiMI-ugZ-27" source="_fxAKipDGVaVRiMI-ugZ-5" target="_fxAKipDGVaVRiMI-ugZ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="80" as="sourcePoint" />
+            <mxPoint x="370" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fxAKipDGVaVRiMI-ugZ-5" value="Money" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="_fxAKipDGVaVRiMI-ugZ-27">
+          <mxGeometry x="400" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_fxAKipDGVaVRiMI-ugZ-4" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="_fxAKipDGVaVRiMI-ugZ-27" source="_fxAKipDGVaVRiMI-ugZ-2" target="_fxAKipDGVaVRiMI-ugZ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_fxAKipDGVaVRiMI-ugZ-6" value="Brain Power" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="_fxAKipDGVaVRiMI-ugZ-27">
+          <mxGeometry x="590" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_fxAKipDGVaVRiMI-ugZ-7" value="Money Bonus" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="_fxAKipDGVaVRiMI-ugZ-27">
+          <mxGeometry x="400" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_fxAKipDGVaVRiMI-ugZ-8" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_fxAKipDGVaVRiMI-ugZ-27" source="_fxAKipDGVaVRiMI-ugZ-1" target="_fxAKipDGVaVRiMI-ugZ-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="80" as="sourcePoint" />
+            <mxPoint x="480" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fxAKipDGVaVRiMI-ugZ-9" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="_fxAKipDGVaVRiMI-ugZ-27" source="_fxAKipDGVaVRiMI-ugZ-6" target="_fxAKipDGVaVRiMI-ugZ-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="260" as="sourcePoint" />
+            <mxPoint x="290" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fxAKipDGVaVRiMI-ugZ-10" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="_fxAKipDGVaVRiMI-ugZ-27" source="_fxAKipDGVaVRiMI-ugZ-7" target="_fxAKipDGVaVRiMI-ugZ-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="180" as="sourcePoint" />
+            <mxPoint x="270" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fxAKipDGVaVRiMI-ugZ-29" value="&lt;font style=&quot;font-size: 21px&quot;&gt;Phase 1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FF6112;" vertex="1" parent="_fxAKipDGVaVRiMI-ugZ-27">
+          <mxGeometry x="120" y="130" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_fxAKipDGVaVRiMI-ugZ-31" value="" style="group;strokeColor=#66B2FF;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1000" y="200" width="120" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="_fxAKipDGVaVRiMI-ugZ-11" value="500 Ramen" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="_fxAKipDGVaVRiMI-ugZ-31">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_fxAKipDGVaVRiMI-ugZ-13" value="Sell Ramen" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="_fxAKipDGVaVRiMI-ugZ-31">
+          <mxGeometry y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_fxAKipDGVaVRiMI-ugZ-14" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_fxAKipDGVaVRiMI-ugZ-31" source="_fxAKipDGVaVRiMI-ugZ-11" target="_fxAKipDGVaVRiMI-ugZ-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-320" y="120" as="sourcePoint" />
+            <mxPoint x="-270" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fxAKipDGVaVRiMI-ugZ-15" value="Sell 200 Ramen" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="_fxAKipDGVaVRiMI-ugZ-31">
+          <mxGeometry y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_fxAKipDGVaVRiMI-ugZ-18" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_fxAKipDGVaVRiMI-ugZ-31" source="_fxAKipDGVaVRiMI-ugZ-13" target="_fxAKipDGVaVRiMI-ugZ-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-70" y="100" as="sourcePoint" />
+            <mxPoint x="-20" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fxAKipDGVaVRiMI-ugZ-19" value="Sell Cooked Ramen" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="_fxAKipDGVaVRiMI-ugZ-31">
+          <mxGeometry y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_fxAKipDGVaVRiMI-ugZ-20" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_fxAKipDGVaVRiMI-ugZ-31" source="_fxAKipDGVaVRiMI-ugZ-15" target="_fxAKipDGVaVRiMI-ugZ-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="400" as="sourcePoint" />
+            <mxPoint x="90" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fxAKipDGVaVRiMI-ugZ-22" value="Sell 100 Cooked Ramen" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="_fxAKipDGVaVRiMI-ugZ-31">
+          <mxGeometry y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_fxAKipDGVaVRiMI-ugZ-23" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_fxAKipDGVaVRiMI-ugZ-31" source="_fxAKipDGVaVRiMI-ugZ-19" target="_fxAKipDGVaVRiMI-ugZ-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="540" as="sourcePoint" />
+            <mxPoint x="-110" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fxAKipDGVaVRiMI-ugZ-32" value="&lt;font color=&quot;#66b2ff&quot; style=&quot;font-size: 18px&quot;&gt;Phase 2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FF6112;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="300" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
