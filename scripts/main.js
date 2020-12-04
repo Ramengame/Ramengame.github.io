@@ -14,8 +14,6 @@ function buyRamenButton(){
     ramenStats();
 };
     
-    
-
 function getRamen(){
     var ramenCost = 5.75;
     if(money >= ramenCost){
