@@ -16,7 +16,6 @@ function getRamen(){
     	money = money - ramenCost;
       document.getElementById('ramen').innerHTML = ramen;
       document.getElementById('money').innerHTML = money;
-      eatRamenText();
     } else {
     alert("The store clerk looks at you incredously. You know you need money to get Ramen, Right?");
     }
