@@ -45,10 +45,12 @@ function eatRamen(){
 
 function brainUpgrade(){
 	if(brainPower = 1){
-	alert("You train your cat to get you money. +0.5 money/sec")
+	alert("You train your cat to get you money. +0.5 money/sec");
 	} else if(brainPower = 2){
-	alert("You ask your roommates to look for money, but they take half :(. +0.25 money/sec")
-	}
+	alert("You ask your roommates to look for money, but they take half :(. +0.25 money/sec");
+	} else {
+	alert("another bowl of yummy Ramen");
+	};
 };
 	
 
