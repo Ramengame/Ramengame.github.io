@@ -11,17 +11,17 @@ function getMoney(number){
 
 function buyRamenButton(){
     getRamen();
-    ramenStats();
 };
     
 function getRamen(){
-    var ramenCost = 0.50;
+    var ramenCost = 0.5;
     if(money >= ramenCost){
       ramen = ramen + 1;
     	money = money - ramenCost;
       document.getElementById('ramen').innerHTML = ramen;
       document.getElementById('money').innerHTML = money;
       eatRamenText();
+      ramenStats();
     } else {
     alert("The store clerk looks at you incredously. You know you need money to get Ramen, Right?");
     }
@@ -38,7 +38,6 @@ function eatRamen(){
     ramen = ramen - 1;
     document.getElementById('brainPower').innerHTML = brainPower;
     document.getElementById('ramen').innerHTML = ramen;
-    brainWords();
     } else{
     alert("You can't eat any Ramen because you don't HAVE any Ramen. This is unacceptable >:(");
     }
@@ -46,6 +45,6 @@ function eatRamen(){
 
 window.setInterval(function(){
     
-getmoney(brainPower);
+getMoney(brainPower/2);
 	
 }, 1000);
