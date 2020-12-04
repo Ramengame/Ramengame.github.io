@@ -1,13 +1,35 @@
 <html>
 <head>
-<script type="text/javascript" src="Ramengame.github.io/main.js"></script>            
+<script type="text/javascript" src="noodlesmain.js"></script>            
+<script type="text/javascript" src="noodlewords.js"></script>            
 
 </head>
 <body>
 Your a hungry college student.  You want some Ramen Noodles.<br />
-<button id="getMoney" onClick="getMoney(1)">Find Some Money</button>
-<button id="buyRamen" onClick="buyRamen()">buy Ramen</button><br />
-You have <span id="ramen">0</span> Ramen <br />
-You have <span id="money">0</span> dollars
+
+<div class="moneyThings">    
+  <button onclick="getMoney(0.5)">Find Some Money</button>
+  <br />
+  You have $<span id="money">0</span>.
+</div>
+
+<div class="ramenThings">
+  <button id="getRamen" onclick="getRamen();ramenStats;">Buy Ramen</button>
+  <br />
+  You have <span id="ramen">0</span> Ramen <span id="ramenSmile"></span>
+  <br />
+  Ramen Cost: $<span id="ramenCost">5.75</span>
+  <br />
+  <button onclick="eatRamen()">Eat Some Ramen</button>
+  Brain Power: <span id="brainPower">0</span>
+  <br />
+</div>
+
+<div class="stats">
+<span id="totalRamen">0</span>
+</div>
+
+<div id="buyRamenText"></div>
+
 </body>
 </html>
