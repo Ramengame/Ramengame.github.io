@@ -9,9 +9,6 @@ var samsRamenCost = 8.28;
 var ramensFromSam = 48;
 var currentBowl = 0;
 var bowlCost = 20;
-var updatesModal = document.getElementById("updatesModalGeneral");
-var updatesModalButton = document.getElementById("updatesModalButton");
-var updatesModalSpan = document.getElementsByClassName("closeUpdatesModal")[0];
 
 //number updating
 function updateCurrentRamenHTML(){
@@ -23,12 +20,12 @@ function updateCurrentMoneyHTML(){
 };
 
 function updateCurrentBowlHTML(){
-    document.getElementById('bowl').innerHTMl = currentBowl.toFixed(2);
+    document.getElementById('bowl').innerHTML = currentBowl;
 };
 
-function updateTotalRamen(){
+function updateTotalRamenHTML(){
     document.getElementById('totalRamen').innerHTML = totalRamen;
-}
+};
 
 //buying and getting buttons
 function getMoney(amount){
@@ -55,12 +52,12 @@ function getRamen(){
 
 function buyBowl(){
     if(currentMoney >= bowlCost){
-	currentBowl = currentBowl + 1;
-	currentMoney -= bowlCost;
-	updateCurrentBowlHTML();
-    updateCurrentMoney();
+	    currentBowl++;
+	    currentMoney -= bowlCost;
+	    updateCurrentBowlHTML();
+        updateCurrentMoneyHTML();
     } else{
-	alert("The store clerk is really tired of you trying to buy things without money. No, you can't pay in Ramen.");
+	    alert("The store clerk is really tired of you trying to buy things without money. No, you can't pay in Ramen.");
     }
 };	
 
