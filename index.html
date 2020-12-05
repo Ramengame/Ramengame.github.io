@@ -1,19 +1,31 @@
+<!DOCTYPE html>
 <html>
 <head>
 <script type="text/javascript" src="./scripts/main.js"></script>            
 <script type="text/javascript" src="./scripts/alerts.js"></script>
  <script rel="stylesheet" type="text/css" href="./styling/main.css"></script>
  <header>
-        (v0.0.5.2)
-        UPDATES: Added Bowls | each bowl gives +.25 brain power (or something. IDK).
-        <br />UPCOMING: Add a game log. | Save Button.
+<button id="updatesModalButton">Open Modal</button>
+
+<div id="updatesModalGeneral" class="updatesModal">
+
+<div class="updatesModal-content">
+    <span class="closeUpdatesModal">&times;</span>
+    <p>UPCOMING: Add a game log. | Save Button.
         <br />
+        <strong>(v0.0.5.6)</strong>
+        UPDATES: Added Bowls | each bowl gives +.25 brain power (or something. IDK).
+        <br /></p>
+  </div>
+
+</div>
         <a href="https://github.com/Ramengame/Ramengame.github.io">Source</a>
         <br />Made by Illithid_Ate_Sylgar :)
         </header>
+
 </head>
 <body>
- <h1 id="mainTitle" class="titles">Ramengame</h1>
+ <h1 id="mainTitle" class="titles">Ramengame Beta</h1>
 Your a hungry college student.  You want some Ramen Noodles.<br />
 
 <div class="moneyThings">    
@@ -42,14 +54,14 @@ Brain Power: <span id="brainPower">0</span>
  Bowls: <span id="bowl">0</span>
 </div>
 
-<div class="stats" hidden>
+<div class="stats">
 <div id="statsTitle" class="titles">
  <h2>Stats</h2>
 </div>
 <span id="totalRamen">0</span>
 </div>
 
-<div id="buyRamenText"></div>
-
+<div id="alerts"></div>
+  
 </body>
 </html>
