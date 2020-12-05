@@ -70,7 +70,7 @@ function eatRamen(){
 function buyBowl(){
     if(currentMoney >= bowlCost){
 	currentBowl = currentBowl + 1;
-	currentMoney -= 1;
+	currentMoney -= bowlCost;
 	updateCurrentBowlHTML;
     } else{
 	alert("The store clerk is really tired of you trying to buy things without money. No, you can't pay in Ramen.");
