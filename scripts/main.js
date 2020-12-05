@@ -59,7 +59,7 @@ function ramenStats(){
 function eatRamen(){
     if(currentRamen >= 1){
         brainPower = brainPower + (1 + currentBowl);
-        currentRamen -= (1 + (currentBowl/4));
+        currentRamen -= 1;
         document.getElementById('brainPower').innerHTML = brainPower;
         updateCurrentRamenHTML();
     } else{
