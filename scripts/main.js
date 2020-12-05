@@ -87,6 +87,10 @@ function eatRamen(){
 }
 
 //Updates Modal Stuff
+var updatesModal = document.getElementById("updatesModalGeneral");
+var updatesModalButton = document.getElementById("updatesModalButton");
+var updatesModalSpan = document.getElementsByClassName("closeUpdatesModal")[0];
+
 updatesModalButton.onclick = function() {
   updatesModal.style.display = "block";
 }
