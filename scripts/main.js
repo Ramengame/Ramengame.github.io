@@ -9,7 +9,28 @@ var samsRamenCost = 8.28;
 var ramensFromSam = 48;
 var currentBowl = 0;
 var bowlCost = 20;
-    
+var updatesModal = document.getElementById("updatesModalGeneral");
+var updatesModalButton = document.getElementById("updatesModalButton");
+var updatesModalSpan = document.getElementsByClassName("closeUpdatesModal")[0];
+
+//number updating
+function updateCurrentRamenHTML(){
+    document.getElementById('ramen').innerHTML = currentRamen.toFixed(2);
+};
+
+function updateCurrentMoneyHTML(){
+    document.getElementById('money').innerHTML = currentMoney.toFixed(2);
+};
+
+function updateCurrentBowlHTML(){
+    document.getElementById('bowl').innerHTMl = currentBowl.toFixed(2);
+};
+
+function updateTotalRamen(){
+    document.getElementById('totalRamen').innerHTML = totalRamen;
+}
+
+//buying and getting buttons
 function getMoney(amount){
       currentMoney += amount;
       updateCurrentMoneyHTML();
@@ -28,27 +49,28 @@ function getRamen(){
     if(currentMoney >= ramenCost){
         paysForRamen(regularRamenCost, ramensFromRegularStore);
     } else {
-    alert("The store clerk looks at you incredously. You know you need money to get Ramen, Right?");
+     alert("You need some Money! :( To bad your broke.")
     }
 };
 
-function updateCurrentRamenHTML(){
-    document.getElementById('ramen').innerHTML = currentRamen.toFixed(2);
-};
-
-function updateCurrentMoneyHTML(){
-    document.getElementById('money').innerHTML = currentMoney.toFixed(2);
-};
-
-function updateCurrentBowlHTML(){
-    document.getElementById('bowl').innerHTMl = currentBowl.toFixed(2);
-};
+function buyBowl(){
+    if(currentMoney >= bowlCost){
+	currentBowl = currentBowl + 1;
+	currentMoney -= bowlCost;
+	updateCurrentBowlHTML();
+    updateCurrentMoney();
+    } else{
+	alert("The store clerk is really tired of you trying to buy things without money. No, you can't pay in Ramen.");
+    }
+};	
 
 function paysForRamen(ramenCost, totalRamenToReceive){
     currentRamen += totalRamenToReceive;
     currentMoney -= ramenCost;
+    totalRamen += totalRamenToReceive;
     updateCurrentMoneyHTML();
     updateCurrentRamenHTML();
+    updateTotalRamenHTML();
 }
 
 function ramenStats(){
@@ -65,16 +87,22 @@ function eatRamen(){
     } else{
         alert("You can't eat any Ramen because you don't HAVE any Ramen. This is unacceptable >:(");
     }
-};
+}
 
-function buyBowl(){
-    if(currentMoney >= bowlCost){
-	currentBowl = currentBowl + 1;
-	currentMoney -= bowlCost;
-	updateCurrentBowlHTML;
-    } else{
-	alert("The store clerk is really tired of you trying to buy things without money. No, you can't pay in Ramen.");
-    }
-};	
+//Updates Modal Stuff
+updatesModalButton.onclick = function() {
+  updatesModal.style.display = "block";
+}
 
+updatesModalSpan.onclick = function() {
+  updatesModal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == updatesModal) {
+    updatesModal.style.display = "none";
+  }
+}
+
+//Tick settings
 window.setInterval(function(){ getMoney(brainPower/2); }, 1000);
