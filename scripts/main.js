@@ -26,7 +26,7 @@ function updateCurrentBowlHTML(){
     document.getElementById('bowl').innerHTMl = currentBowl.toFixed(2);
 };
 
-function updateTotalRamen(){
+function updateTotalRamenHTML(){
     document.getElementById('totalRamen').innerHTML = totalRamen;
 }
 
