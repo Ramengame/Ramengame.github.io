@@ -25,25 +25,20 @@ var updatesModalSpan = document.getElementsByClassName("closeUpdatesModal")[0];
 function updateCurrentRamenHTML(){
     document.getElementById('ramen').innerHTML = currentRamen.toFixed(2);
 };
-
 function updateCurrentMoneyHTML(){
     document.getElementById('money').innerHTML = currentMoney.toFixed(2);
 };
-
 function updateCurrentBowlHTML(){
-    document.getElementById('bowl').innerHTMl = currentBowl.toFixed(2);
+    document.getElementById('bowl').innerHTML = currentBowl.toFixed(2);
 };
-
 function updateTotalRamenHTML(){
     document.getElementById('totalRamen').innerHTML = totalRamen;
 }
-
 function updateCurrentCouponHTML(){
     document.getElementById('coupon').innerHTML = currentCoupon;
 }
-
 function updateCurrentBrainPowerHTML(){
-    document.getElementById('brainPower').innerHTML = currentBrainPower;
+    document.getElementById('brainPower').innerHTML = currentBrainPower.toFixed(2);
 }
 
 //buying and getting buttons
@@ -51,7 +46,6 @@ function getMoney(amount){
       currentMoney += amount;
       updateCurrentMoneyHTML();
 };
-
 function samsRamen(){
     if(currentMoney >= samsRamenCost){
         paysForRamen(samsRamenCost, ramensFromSam);
@@ -59,7 +53,6 @@ function samsRamen(){
 	    alert(noMoney);
     };
 };
-
 function getRamen(){
     var ramenCost = 0.5;
     if(currentMoney >= ramenCost){
@@ -70,18 +63,16 @@ function getRamen(){
         setTimeout(function(){ x.className = x.className.replace("alertsNoMoney", ""); }, 3000);
     }
 };
-
 function buyBowl(){
     if(currentMoney >= bowlCost){
 	currentBowl += 1;
 	currentMoney -= bowlCost;
 	updateCurrentBowlHTML();
-    updateCurrentMoney();
+    updateCurrentMoneyHTML();
     } else{
 	alert("The store clerk is really tired of you trying to buy things without money. No, you can't pay in Ramen.");
     }
 };	
-
 function paysForRamen(ramenCost, totalRamenToReceive){
     currentRamen += totalRamenToReceive;
     currentMoney -= ramenCost;
@@ -90,15 +81,13 @@ function paysForRamen(ramenCost, totalRamenToReceive){
     updateCurrentRamenHTML();
     updateTotalRamenHTML();
 }
-
 function ramenStats(){
     totalRamen = totalRamen + 1;
     document.getElementById('totalRamen').innerHTML = totalRamen;
-};
-  
+}; 
 function eatRamen(){
     if(currentRamen >= 1){
-        currentBrainPower = currentBrainPower + (1 + currentBowl);
+        currentBrainPower = currentBrainPower + 1;
         currentRamen -= 1;
         updateCurrentBrainPowerHTML();
         updateCurrentRamenHTML();
@@ -126,8 +115,7 @@ window.onclick = function(event) {
 
 function clipCoupon(){
   if(currentBrainPower >= 100){
-    currentCoupon += 1;
-    totalBrainPower += 1;
+    currentCoupon += 1
     currentBrainPower -= 100;
     updateCurrentBrainPowerHTML();
     updateCurrentCouponHTML();
@@ -135,11 +123,7 @@ function clipCoupon(){
 }
 
 ///////////////////////////////////////
-window.setInterval(function(){
-    
-getMoney((totalBrainPower/10)+1);
-	
-}, 1000);
+window.setInterval(function(){ getMoney(brainPower/2); }, 1000);
 
 
 
