@@ -40,10 +40,13 @@ function updateCurrentCouponHTML(){
 function updateCurrentBrainPowerHTML(){
     document.getElementById('brainPower').innerHTML = currentBrainPower.toFixed(2);
 }
+function updateTotalBrainPowerHTML(){
+    document.getElementById('totalBrainPower').innerHTML = totalBrainPower.toFixed(2);
+}
 
 //buying and getting buttons
-function getMoney(amount){
-      currentMoney += amount;
+function getMoney(number){
+      currentMoney += number;
       updateCurrentMoneyHTML();
 };
 function samsRamen(){
@@ -58,9 +61,7 @@ function getRamen(){
     if(currentMoney >= ramenCost){
         paysForRamen(regularRamenCost, ramensFromRegularStore);
     } else {
-        var x = document.getElementById("alertsNoMoney");
-        x.className = "show";
-        setTimeout(function(){ x.className = x.className.replace("alertsNoMoney", ""); }, 3000);
+        alert("You have no money. College does that to ya :P");
     }
 };
 function buyBowl(){
@@ -94,7 +95,7 @@ function eatRamen(){
     } else{
         alert("You can't eat any Ramen because you don't HAVE any Ramen. This is unacceptable >:(");
     }
-}
+};
 
 //Updates Modal Stuff
 updatesModalButton.onclick = function() {
@@ -123,9 +124,11 @@ function clipCoupon(){
 }
 
 ///////////////////////////////////////
-window.setInterval(function(){ getMoney(brainPower/2); }, 1000);
-
-
+window.setInterval(function(){
+	
+	getMoney(currentBrainPower/10);
+	
+}, 1000);
 
 
 
